@@ -29,7 +29,7 @@ int divison (int a, int b)
         if (a % b != 0)
             res *= 1.0; 
     }
-    return a/b;
+    return res;
 }
 
 int Calculator(int a, char op, int b)
